@@ -22,6 +22,10 @@ def crop(name, page, box, text=False, circle=False, keyed=False):
                 r,g,b,a = pixels[x,y]
                 alpha = max(0, min(255, (r-232)*16, (g-199)*12, (r-b-72)*10, (g-b-40)*12))
                 pixels[x,y] = (255, 229, 147, alpha)
+        if name == 'company-tour-label':
+            # The source crop includes one row of the photograph's frame.
+            # Remove that stray rule while preserving the caption's lettering.
+            im.paste((0, 0, 0, 0), (0, 0, im.width, 2))
     if circle:
         from PIL import ImageDraw
         mask = Image.new('L', im.size)

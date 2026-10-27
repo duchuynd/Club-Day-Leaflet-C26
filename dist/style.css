@@ -14,3 +14,18 @@ main{width:100%;perspective:1800px;padding:0 24px 126px;overflow:clip;outline:0}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*:before,*:after{animation-duration:.01ms!important;animation-delay:0ms!important;transition-duration:.01ms!important}.heart-piece{will-change:auto}}
 
 .external-grid .project{position:relative}.project-badge{position:absolute;width:26%;left:7%;top:-27px;border-radius:50%;z-index:1}.external-heading{margin-bottom:43px}@media(max-width:700px){.external-heading{margin-bottom:48px}.external-grid{gap:49px}.project-badge{top:-29px}}
+
+/* Give the desktop leaflet more breathing room without scaling phone layouts. */
+@media (min-width:1001px) {
+  :root { --max:min(960px, calc(100vw - 128px)); }
+  .topbar { min-height:96px; padding:21px 6px; }
+  .page-frame { padding:40px 42px 22px; }
+  .masthead { margin-bottom:28px; }
+  .introduction { gap:21px; min-height:180px; }
+  .club-seal { width:190px; }
+  .introduction p { font-size:21px; }
+  .values-departments { gap:38px; margin:7px 30px 26px; }
+  .human figcaption { font-size:13px; }
+  .contact-body { font-size:17px; }
+  .recruitment-link > span { font-size:19px; }
+}
