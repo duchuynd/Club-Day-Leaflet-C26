@@ -1,0 +1,431 @@
+{
+  "school-title": {
+    "page": 1,
+    "source_box": [
+      264,
+      118,
+      1149,
+      214
+    ],
+    "width": 885,
+    "height": 96
+  },
+  "club-title": {
+    "page": 1,
+    "source_box": [
+      161,
+      227,
+      1242,
+      364
+    ],
+    "width": 1081,
+    "height": 137
+  },
+  "what-title": {
+    "page": 1,
+    "source_box": [
+      180,
+      1179,
+      1235,
+      1283
+    ],
+    "width": 1055,
+    "height": 104
+  },
+  "internal-title": {
+    "page": 1,
+    "source_box": [
+      404,
+      1295,
+      1011,
+      1339
+    ],
+    "width": 607,
+    "height": 44
+  },
+  "departments-title": {
+    "page": 1,
+    "source_box": [
+      870,
+      699,
+      1131,
+      735
+    ],
+    "width": 261,
+    "height": 36
+  },
+  "external-title": {
+    "page": 2,
+    "source_box": [
+      474,
+      114,
+      940,
+      162
+    ],
+    "width": 466,
+    "height": 48
+  },
+  "partner-title": {
+    "page": 2,
+    "source_box": [
+      405,
+      594,
+      1002,
+      656
+    ],
+    "width": 597,
+    "height": 62
+  },
+  "partner-caption": {
+    "page": 2,
+    "source_box": [
+      103,
+      824,
+      1296,
+      866
+    ],
+    "width": 1193,
+    "height": 42
+  },
+  "humans-title": {
+    "page": 2,
+    "source_box": [
+      479,
+      885,
+      928,
+      951
+    ],
+    "width": 449,
+    "height": 66
+  },
+  "recruitment-title": {
+    "page": 2,
+    "source_box": [
+      479,
+      1350,
+      932,
+      1401
+    ],
+    "width": 453,
+    "height": 51
+  },
+  "contact-title": {
+    "page": 2,
+    "source_box": [
+      522,
+      1727,
+      889,
+      1784
+    ],
+    "width": 367,
+    "height": 57
+  },
+  "company-tour-label": {
+    "page": 1,
+    "source_box": [
+      218,
+      1583,
+      421,
+      1619
+    ],
+    "width": 203,
+    "height": 36
+  },
+  "training-label": {
+    "page": 1,
+    "source_box": [
+      530,
+      1585,
+      937,
+      1618
+    ],
+    "width": 407,
+    "height": 33
+  },
+  "marketing-label": {
+    "page": 1,
+    "source_box": [
+      949,
+      1584,
+      1292,
+      1619
+    ],
+    "width": 343,
+    "height": 35
+  },
+  "christmas-label": {
+    "page": 1,
+    "source_box": [
+      358,
+      1866,
+      708,
+      1903
+    ],
+    "width": 350,
+    "height": 37
+  },
+  "trip-label": {
+    "page": 1,
+    "source_box": [
+      878,
+      1867,
+      992,
+      1903
+    ],
+    "width": 114,
+    "height": 36
+  },
+  "bcareer-label": {
+    "page": 2,
+    "source_box": [
+      199,
+      512,
+      389,
+      552
+    ],
+    "width": 190,
+    "height": 40
+  },
+  "challengers-label": {
+    "page": 2,
+    "source_box": [
+      511,
+      514,
+      896,
+      554
+    ],
+    "width": 385,
+    "height": 40
+  },
+  "logisticom-label": {
+    "page": 2,
+    "source_box": [
+      979,
+      511,
+      1253,
+      553
+    ],
+    "width": 274,
+    "height": 42
+  },
+  "company-tour": {
+    "page": 1,
+    "source_box": [
+      132,
+      1371,
+      512,
+      1575
+    ],
+    "width": 380,
+    "height": 204
+  },
+  "business-training": {
+    "page": 1,
+    "source_box": [
+      544,
+      1371,
+      917,
+      1575
+    ],
+    "width": 373,
+    "height": 204
+  },
+  "marketing-discussion": {
+    "page": 1,
+    "source_box": [
+      952,
+      1371,
+      1284,
+      1575
+    ],
+    "width": 332,
+    "height": 204
+  },
+  "bchristmas": {
+    "page": 1,
+    "source_box": [
+      321,
+      1650,
+      697,
+      1855
+    ],
+    "width": 376,
+    "height": 205
+  },
+  "bc-trip": {
+    "page": 1,
+    "source_box": [
+      738,
+      1650,
+      1109,
+      1855
+    ],
+    "width": 371,
+    "height": 205
+  },
+  "bcareer": {
+    "page": 2,
+    "source_box": [
+      116,
+      225,
+      485,
+      495
+    ],
+    "width": 369,
+    "height": 270
+  },
+  "marketing-challengers": {
+    "page": 2,
+    "source_box": [
+      525,
+      226,
+      891,
+      495
+    ],
+    "width": 366,
+    "height": 269
+  },
+  "logisticom": {
+    "page": 2,
+    "source_box": [
+      927,
+      225,
+      1294,
+      495
+    ],
+    "width": 367,
+    "height": 270
+  },
+  "induction-qr": {
+    "page": 2,
+    "source_box": [
+      361,
+      1418,
+      604,
+      1661
+    ],
+    "width": 243,
+    "height": 243
+  },
+  "cv-qr": {
+    "page": 2,
+    "source_box": [
+      835,
+      1418,
+      1078,
+      1661
+    ],
+    "width": 243,
+    "height": 243
+  },
+  "strategic-partner": {
+    "page": 2,
+    "source_box": [
+      351,
+      671,
+      1065,
+      815
+    ],
+    "width": 714,
+    "height": 144
+  },
+  "human-minh-phuong": {
+    "page": 2,
+    "source_box": [
+      139,
+      973,
+      441,
+      1286
+    ],
+    "width": 302,
+    "height": 313
+  },
+  "human-kim-sa": {
+    "page": 2,
+    "source_box": [
+      542,
+      973,
+      864,
+      1286
+    ],
+    "width": 322,
+    "height": 313
+  },
+  "human-minh-han": {
+    "page": 2,
+    "source_box": [
+      968,
+      973,
+      1266,
+      1286
+    ],
+    "width": 298,
+    "height": 313
+  },
+  "bc-logo": {
+    "page": 1,
+    "source_box": [
+      125,
+      393,
+      402,
+      674
+    ],
+    "width": 277,
+    "height": 281
+  },
+  "values": {
+    "page": 1,
+    "source_box": [
+      193,
+      699,
+      708,
+      1149
+    ],
+    "width": 515,
+    "height": 450
+  },
+  "bcareer-badge": {
+    "page": 2,
+    "source_box": [
+      133,
+      183,
+      228,
+      279
+    ],
+    "width": 95,
+    "height": 96
+  },
+  "marketing-badge": {
+    "page": 2,
+    "source_box": [
+      541,
+      183,
+      636,
+      279
+    ],
+    "width": 95,
+    "height": 96
+  },
+  "logisticom-badge": {
+    "page": 2,
+    "source_box": [
+      948,
+      183,
+      1043,
+      279
+    ],
+    "width": 95,
+    "height": 96
+  },
+  "heart-source": {
+    "page": 1,
+    "source_box": [
+      779,
+      746,
+      1222,
+      1128
+    ],
+    "width": 443,
+    "height": 382
+  }
+}
