@@ -21,7 +21,11 @@ def crop(name, page, box, text=False, circle=False, keyed=False):
             for x in range(im.width):
                 r,g,b,a = pixels[x,y]
                 alpha = max(0, min(255, (r-232)*16, (g-199)*12, (r-b-72)*10, (g-b-40)*12))
-                pixels[x,y] = (255, 229, 147, alpha)
+                if name == 'departments-title':
+                    alpha = max(0, min(255, (r-210)*8, (g-210)*8, (b-210)*8))
+                    pixels[x,y] = (255, 249, 229, alpha)
+                else:
+                    pixels[x,y] = (255, 229, 147, alpha)
         if name == 'company-tour-label':
             # The source crop includes one row of the photograph's frame.
             # Remove that stray rule while preserving the caption's lettering.

@@ -1,5 +1,12 @@
 /* Enable @font-face after the licensed Blode Starkly webfont is supplied.
    Existing title artwork already preserves the font from the sample. */
+@font-face {
+  font-family:'CDA Me Ly Display';
+  src:url('assets/fonts/CDAMeLyDisplay-Bold.woff2') format('woff2');
+  font-style:normal;
+  font-weight:700;
+  font-display:swap;
+}
 :root{--cream:#ffe593;--paper:#fff3cd;--clay:#b05e47;--text:#fff2d1;--line:rgba(255,224,136,.75);--max:1120px}
 *{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:96px}body{margin:0;color:var(--text);background:#9c3d2d;font-family:'Arial Narrow','Avenir Next Condensed','Helvetica Neue',Arial,sans-serif;-webkit-font-smoothing:antialiased;min-width:280px}button,a{-webkit-tap-highlight-color:transparent}button{font:inherit}a{color:inherit;text-decoration:none}button{cursor:pointer}button:disabled{cursor:default}img{max-width:100%;height:auto;display:block}figure,h1,h2,h3,p{margin:0}button:focus-visible,a:focus-visible{outline:3px solid var(--paper);outline-offset:5px}button{touch-action:manipulation}.sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}.skip-link{position:fixed;left:20px;top:-80px;background:var(--cream);color:#6c271c;padding:12px 20px;z-index:100}.skip-link:focus{top:15px}
 .topbar{max-width:var(--max);margin:0 auto;min-height:80px;padding:15px 6px;display:flex;align-items:center;justify-content:space-between;gap:20px}.brand{display:flex;align-items:center;gap:10px;font-size:13px;font-weight:700;letter-spacing:1.8px}.brand img{width:36px;height:36px;object-fit:contain}.brand small{display:block;font-size:8px;letter-spacing:2px;margin-top:5px;opacity:.65}.page-tabs{display:flex;padding:4px;border:1px solid #ffe59355;border-radius:40px;gap:3px}.page-tabs button{border:0;background:transparent;color:#ffedc2aa;border-radius:25px;padding:10px 17px;font-size:11px;letter-spacing:1px}.page-tabs button span{margin-left:7px}.page-tabs button[aria-current=page]{background:var(--cream);color:#7a3427}.page-tabs button:hover{color:var(--paper)}.page-tabs button[aria-current=page]:hover{color:#7a3427}
@@ -29,3 +36,57 @@ main{width:100%;perspective:1800px;padding:0 24px 126px;overflow:clip;outline:0}
   .contact-body { font-size:17px; }
   .recruitment-link > span { font-size:19px; }
 }
+
+.introduction p {
+  font-family:'CDA Me Ly Display','Arial Narrow',sans-serif;
+  font-weight:700;
+  font-stretch:normal;
+  font-synthesis:none;
+}
+
+/* Original supplied artwork, softened and warmed to match the printed sample.
+   Keep the blur on this separate layer so all leaflet content stays sharp. */
+body {
+  position:relative;
+  isolation:isolate;
+  background:#a54b3b;
+}
+body::before {
+  content:'';
+  position:fixed;
+  inset:-24px;
+  z-index:-1;
+  pointer-events:none;
+  background:
+    linear-gradient(rgba(169,67,47,.4),rgba(172,66,48,.45)),
+    url('assets/leaflet-background.png') center / cover no-repeat;
+  filter:blur(24px);
+}
+.leaflet-page {
+  background:#b65d48;
+}
+.leaflet-page::before {
+  inset:0;
+  background:
+    linear-gradient(
+      rgba(160,54,29,.35) 0%,
+      rgba(199,125,63,.24) 24%,
+      rgba(199,125,63,.24) 60%,
+      rgba(222,113,78,.25) 100%
+    ),
+    url('assets/leaflet-background.png') center / 108.5% 105.5% no-repeat;
+  filter:blur(clamp(4px,.8vw,8px));
+  border-radius:inherit;
+  clip-path:inset(0 round 48px);
+}
+@media (max-width:700px) {
+  .leaflet-page::before { clip-path:inset(0 round 30px); }
+}
+.contact-body {
+  text-shadow:0 2px 2px rgba(91,58,35,.85),0 0 1px rgba(91,58,35,.75);
+}
+.page-turn {
+  color:#7d3e2c;
+  border-top-color:rgba(125,62,44,.25);
+}
+.turn-line { background:rgba(125,62,44,.3); }
