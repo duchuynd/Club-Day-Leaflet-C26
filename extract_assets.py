@@ -20,7 +20,7 @@ def crop(name, page, box, text=False, circle=False, keyed=False):
         for y in range(im.height):
             for x in range(im.width):
                 r,g,b,a = pixels[x,y]
-                alpha = max(0, min(255, round((g - r * .32 - 58) * 3.5)))
+                alpha = max(0, min(255, (r-232)*16, (g-199)*12, (r-b-72)*10, (g-b-40)*12))
                 pixels[x,y] = (255, 229, 147, alpha)
     if circle:
         from PIL import ImageDraw
