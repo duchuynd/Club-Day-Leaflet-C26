@@ -1,5 +1,6 @@
 (() => {
   'use strict';
+
   const pages = [...document.querySelectorAll('.leaflet-page')];
   const reducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)');
   const heart = document.querySelector('.heart');
