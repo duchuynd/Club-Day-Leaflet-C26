@@ -7,10 +7,10 @@
   <meta name="description" content="Meet RMIT Vietnam Business Club – SGS. Discover our departments, projects, people and recruitment opportunities at Club Day.">
   <title>Business Club · Club Day</title>
   <link rel="icon" href="assets/bc-logo.png">
-  <link rel="preload" as="font" type="font/ttf" href="assets/fonts/Blodestarkly-Regular.ttf?v=complete" crossorigin>
+  <link rel="preload" as="font" type="font/ttf" href="assets/fonts/Blodestarkly-Regular.ttf?v=partner-heart-4" crossorigin>
   <link rel="preload" as="font" type="font/woff2" href="assets/fonts/CDAMeLyDisplay-Bold.woff2" crossorigin>
-  <link rel="stylesheet" href="style.css?v=complete-blode-1">
-  <script src="app.js?v=complete-blode-1" defer></script>
+  <link rel="stylesheet" href="style.css?v=partner-heart-4">
+  <script src="app.js?v=partner-heart-4" defer></script>
 </head>
 <body>
   <a class="skip-link" href="#leaflet">Skip to leaflet</a>
@@ -22,6 +22,7 @@
     <nav class="page-tabs" aria-label="Leaflet pages">
       <button type="button" data-page="1" aria-current="page">01 <span>Meet BC</span></button>
       <button type="button" data-page="2">02 <span>Explore BC</span></button>
+      <button type="button" data-page="3">03 <span>Join BC</span></button>
     </nav>
   </header>
 
@@ -50,53 +51,139 @@
           </div>
           <div class="departments">
             <h2 class="art-title department-heading">4 DEPARTMENTS</h2>
-            <button class="heart" type="button" aria-label="Replay the four heart pieces assembling" title="Tap to replay">
-              <img class="heart-piece piece-external" src="assets/heart-external.png" width="443" height="382" alt="External Relations">
-              <img class="heart-piece piece-research" src="assets/heart-research.png" width="443" height="382" alt="Research and Development">
-              <img class="heart-piece piece-marketing" src="assets/heart-marketing.png" width="443" height="382" alt="Marketing">
-              <img class="heart-piece piece-hr" src="assets/heart-hr.png" width="443" height="382" alt="Human Resources">
+            <button class="heart" type="button" aria-label="Replay the four department heart pieces assembling" title="Tap to replay">
+              <svg viewBox="0 0 440 385" role="img" aria-labelledby="heart-title">
+                <title id="heart-title">Four departments: External Relations, Research and Development, Marketing, Human Resources</title>
+                <g class="heart-piece piece-external">
+                  <path fill="#efb94f" d="M220 65 C166 -28 41 -13 12 78 C-5 132 10 175 32 212 H106 C89 179 111 157 135 163 C157 168 166 190 153 212 H220 V151 C249 169 275 151 267 128 C260 108 239 106 220 115 Z"/>
+                  <text x="113" y="112"><tspan x="113">EXTERNAL</tspan><tspan x="113" dy="24">RELATIONS</tspan></text>
+                </g>
+                <g class="heart-piece piece-research">
+                  <path fill="#f1cd86" d="M220 65 C274 -28 399 -13 428 78 C445 132 430 175 408 212 H335 C349 239 332 262 309 259 C284 256 276 233 287 212 H220 V151 C249 169 275 151 267 128 C260 108 239 106 220 115 Z"/>
+                  <text x="337" y="112"><tspan x="337">RESEARCH &amp;</tspan><tspan x="337" dy="24">DEVELOPMENT</tspan></text>
+                </g>
+                <g class="heart-piece piece-marketing">
+                  <path fill="#f4d79b" d="M32 212 H106 C89 179 111 157 135 163 C157 168 166 190 153 212 H220 V281 C191 265 169 283 173 306 C177 330 201 334 220 322 V380 C139 327 77 278 32 212 Z"/>
+                  <text class="heart-label-marketing" x="147" y="252">MARKETING</text>
+                </g>
+                <g class="heart-piece piece-hr">
+                  <path fill="#ecb34e" d="M220 212 H287 C276 233 284 256 309 259 C332 262 349 239 335 212 H408 C363 278 301 327 220 380 V322 C201 334 177 330 173 306 C169 283 191 265 220 281 Z"/>
+                  <text class="heart-label-hr" x="267" y="279"><tspan x="267">HUMAN</tspan><tspan x="267" dy="20">RESOURCES</tspan></text>
+                </g>
+              </svg>
             </button>
             <span class="replay-hint" aria-hidden="true">↻ &nbsp; Tap the heart to replay</span>
           </div>
         </section>
 
-        <section class="internal-projects" aria-labelledby="what-title">
-          <h2 class="art-title what-heading" id="what-title">WHAT DOES BC HAVE ?</h2>
-          <h3 class="art-title internal-heading">INTERNAL PROJECTS (FOR BCERS)</h3>
-          <div class="project-grid internal-grid">
-            <figure class="project"><img class="project-photo" src="assets/company-tour.png" width="380" height="203" alt="Business Club members on a company tour at Unilever" loading="lazy"><figcaption>COMPANY TOUR</figcaption></figure>
-            <figure class="project"><img class="project-photo" src="assets/business-training.png" width="373" height="203" alt="Members at a Business Acumen Internal Training session" loading="lazy"><figcaption>BUSINESS ACUMEN INTERNAL TRAINING</figcaption></figure>
-            <figure class="project"><img class="project-photo" src="assets/marketing-discussion.png" width="332" height="203" alt="Group photo at Marketing Discussion 9.0" loading="lazy"><figcaption>MARKETING DISCUSSION 9.0</figcaption></figure>
-            <figure class="project"><img class="project-photo" src="assets/bchristmas.png" width="376" height="205" alt="Members celebrating Christmas together" loading="lazy"><figcaption>BCHRISTMAS – BONDING</figcaption></figure>
-            <figure class="project"><img class="project-photo" src="assets/bc-trip.png" width="371" height="205" alt="Business Club trip to the Amazing Circus Land" loading="lazy"><figcaption>BC TRIP</figcaption></figure>
-          </div>
+        <section class="department-cards" aria-label="Meet our four departments">
+          <section class="department-card"><h3 class="art-title">MARKETING<span>THE FACE OF BC</span></h3><p>Build BC’s brand identity and enhance its visibility through strategic marketing and communication.</p></section>
+          <section class="department-card"><h3 class="art-title">EXTERNAL RELATIONS<span>THE VOICE OF BC</span></h3><p>Build and maintain strategic partnerships with external stakeholders to drive BC’s growth and create mutual value.</p></section>
+          <section class="department-card"><h3 class="art-title">HUMAN RESOURCES<span>THE HEART OF BC</span></h3><p>Build a strong BC community by recruiting talent, developing future business leaders, and fostering members’ growth and belonging.</p></section>
+          <section class="department-card"><h3 class="art-title">RESEARCH &amp; DEVELOPMENT<span>THE BACKBONE OF BC</span></h3><p>Strengthen BC’s foundation through research, internal development, process improvement, and business knowledge sharing.</p></section>
         </section>
-        <button class="page-turn" type="button" data-page="2"><span>MORE OF BUSINESS CLUB</span><span class="turn-line"></span><span>Turn the page &nbsp; ↗</span></button>
+        <button class="page-turn" type="button" data-page="2"><span>MORE OF BUSINESS CLUB</span><span class="turn-line"></span><span>Explore our projects &nbsp; ↗</span></button>
       </div>
     </article>
 
-    <article class="leaflet-page" id="page-2" aria-label="Page 2: Projects, people and recruitment" data-index="2" hidden>
+    <article class="leaflet-page" id="page-2" aria-label="Page 2: Business Club projects" data-index="2" hidden>
       <div class="page-frame">
+        <section class="internal-projects" aria-labelledby="what-title">
+          <h2 class="art-title what-heading" id="what-title">WHAT DOES BC HAVE ?</h2>
+          <h3 class="art-title internal-heading">INTERNAL PROJECTS (FOR BCERS)</h3>
+          <section class="project-row" aria-labelledby="company-tour-title" data-carousel role="region" aria-roledescription="carousel">
+            <div class="project-row-header">
+              <h4 class="art-title" id="company-tour-title">COMPANY TOUR</h4>
+              <div class="carousel-controls">
+                <button type="button" class="carousel-pause" aria-label="Pause COMPANY TOUR slideshow" aria-pressed="false">Ⅱ</button>
+                <button type="button" data-direction="-1" aria-label="Previous COMPANY TOUR photo">←</button>
+                <span class="carousel-counter" aria-live="off">01 / 03</span>
+                <button type="button" data-direction="1" aria-label="Next COMPANY TOUR photo">→</button>
+              </div>
+            </div>
+            <div class="carousel-viewport" tabindex="0" aria-label="COMPANY TOUR photos. Swipe or use arrow keys.">
+              <div class="carousel-track">
+                  <figure class="project carousel-slide" role="group" aria-roledescription="slide" aria-label="1 of 3"><img class="project-photo" src="assets/projects/company-tour-1.webp" width="1400" height="788" alt="Shopee Company Tour" loading="lazy" draggable="false"><figcaption>Shopee Company Tour</figcaption></figure>
+                  <figure class="project carousel-slide" role="group" aria-roledescription="slide" aria-label="2 of 3"><img class="project-photo" src="assets/projects/company-tour-2.webp" width="1400" height="1051" alt="Suntory Pepsico Company Tour" loading="lazy" draggable="false"><figcaption>Suntory Pepsico Company Tour</figcaption></figure>
+                  <figure class="project carousel-slide" role="group" aria-roledescription="slide" aria-label="3 of 3"><img class="project-photo" src="assets/projects/company-tour-3.webp" width="1400" height="933" alt="KPMG Company Tour" loading="lazy" draggable="false"><figcaption>KPMG Company Tour</figcaption></figure>
+              </div>
+            </div>
+            <div class="carousel-dots" aria-label="COMPANY TOUR photos"><button type="button" data-slide="0" aria-label="Show Shopee Company Tour" aria-current="true"></button><button type="button" data-slide="1" aria-label="Show Suntory Pepsico Company Tour"></button><button type="button" data-slide="2" aria-label="Show KPMG Company Tour"></button></div>
+          </section>
+          <section class="project-row" aria-labelledby="workshop-training-title" data-carousel role="region" aria-roledescription="carousel">
+            <div class="project-row-header">
+              <h4 class="art-title" id="workshop-training-title">WORKSHOP AND INTERNAL TRAINING</h4>
+              <div class="carousel-controls">
+                <button type="button" class="carousel-pause" aria-label="Pause WORKSHOP AND INTERNAL TRAINING slideshow" aria-pressed="false">Ⅱ</button>
+                <button type="button" data-direction="-1" aria-label="Previous WORKSHOP AND INTERNAL TRAINING photo">←</button>
+                <span class="carousel-counter" aria-live="off">01 / 07</span>
+                <button type="button" data-direction="1" aria-label="Next WORKSHOP AND INTERNAL TRAINING photo">→</button>
+              </div>
+            </div>
+            <div class="carousel-viewport" tabindex="0" aria-label="WORKSHOP AND INTERNAL TRAINING photos. Swipe or use arrow keys.">
+              <div class="carousel-track">
+                  <figure class="project carousel-slide" role="group" aria-roledescription="slide" aria-label="1 of 7"><img class="project-photo" src="assets/projects/workshop-training-1.webp" width="1400" height="898" alt="Business Acumen Internal Training" loading="lazy" draggable="false"><figcaption>Business Acumen Internal Training</figcaption></figure>
+                  <figure class="project carousel-slide" role="group" aria-roledescription="slide" aria-label="2 of 7"><img class="project-photo" src="assets/projects/workshop-training-2.webp" width="770" height="516" alt="Marketing Discussion 9.0" loading="lazy" draggable="false"><figcaption>Marketing Discussion 9.0</figcaption></figure>
+                  <figure class="project carousel-slide" role="group" aria-roledescription="slide" aria-label="3 of 7"><img class="project-photo" src="assets/projects/workshop-training-3.webp" width="1400" height="935" alt="BControl 2.0" loading="lazy" draggable="false"><figcaption>BControl 2.0</figcaption></figure>
+                  <figure class="project carousel-slide" role="group" aria-roledescription="slide" aria-label="4 of 7"><img class="project-photo" src="assets/projects/workshop-training-4.webp" width="1400" height="788" alt="Crack The Case - From Zero to Hero" loading="lazy" draggable="false"><figcaption>Crack The Case - From Zero to Hero</figcaption></figure>
+                  <figure class="project carousel-slide" role="group" aria-roledescription="slide" aria-label="5 of 7"><img class="project-photo" src="assets/projects/workshop-training-5.webp" width="1400" height="935" alt="BCase" loading="lazy" draggable="false"><figcaption>BCase</figcaption></figure>
+                  <figure class="project carousel-slide" role="group" aria-roledescription="slide" aria-label="6 of 7"><img class="project-photo" src="assets/projects/workshop-training-6.webp" width="1400" height="933" alt="P&amp;G × BC: Career Talk Session" loading="lazy" draggable="false"><figcaption>P&amp;G × BC: Career Talk Session</figcaption></figure>
+                  <figure class="project carousel-slide" role="group" aria-roledescription="slide" aria-label="7 of 7"><img class="project-photo" src="assets/projects/workshop-training-7.webp" width="1400" height="935" alt="Guest Speaker Management Training" loading="lazy" draggable="false"><figcaption>Guest Speaker Management Training</figcaption></figure>
+              </div>
+            </div>
+            <div class="carousel-dots" aria-label="WORKSHOP AND INTERNAL TRAINING photos"><button type="button" data-slide="0" aria-label="Show Business Acumen Internal Training" aria-current="true"></button><button type="button" data-slide="1" aria-label="Show Marketing Discussion 9.0"></button><button type="button" data-slide="2" aria-label="Show BControl 2.0"></button><button type="button" data-slide="3" aria-label="Show Crack The Case - From Zero to Hero"></button><button type="button" data-slide="4" aria-label="Show BCase"></button><button type="button" data-slide="5" aria-label="Show P&amp;G × BC: Career Talk Session"></button><button type="button" data-slide="6" aria-label="Show Guest Speaker Management Training"></button></div>
+          </section>
+          <section class="project-row" aria-labelledby="bonding-events-title" data-carousel role="region" aria-roledescription="carousel">
+            <div class="project-row-header">
+              <h4 class="art-title" id="bonding-events-title">BONDING EVENTS</h4>
+              <div class="carousel-controls">
+                <button type="button" class="carousel-pause" aria-label="Pause BONDING EVENTS slideshow" aria-pressed="false">Ⅱ</button>
+                <button type="button" data-direction="-1" aria-label="Previous BONDING EVENTS photo">←</button>
+                <span class="carousel-counter" aria-live="off">01 / 03</span>
+                <button type="button" data-direction="1" aria-label="Next BONDING EVENTS photo">→</button>
+              </div>
+            </div>
+            <div class="carousel-viewport" tabindex="0" aria-label="BONDING EVENTS photos. Swipe or use arrow keys.">
+              <div class="carousel-track">
+                  <figure class="project carousel-slide" role="group" aria-roledescription="slide" aria-label="1 of 3"><img class="project-photo" src="assets/projects/bonding-events-1.webp" width="1400" height="933" alt="BChristmas – Bonding" loading="lazy" draggable="false"><figcaption>BChristmas – Bonding</figcaption></figure>
+                  <figure class="project carousel-slide" role="group" aria-roledescription="slide" aria-label="2 of 3"><img class="project-photo" src="assets/projects/bonding-events-2.webp" width="692" height="462" alt="BC Trip" loading="lazy" draggable="false"><figcaption>BC Trip</figcaption></figure>
+                  <figure class="project carousel-slide" role="group" aria-roledescription="slide" aria-label="3 of 3"><img class="project-photo" src="assets/projects/bonding-events-3.webp" width="1400" height="788" alt="BCulture - Hon Viet" loading="lazy" draggable="false"><figcaption>BCulture - Hon Viet</figcaption></figure>
+              </div>
+            </div>
+            <div class="carousel-dots" aria-label="BONDING EVENTS photos"><button type="button" data-slide="0" aria-label="Show BChristmas – Bonding" aria-current="true"></button><button type="button" data-slide="1" aria-label="Show BC Trip"></button><button type="button" data-slide="2" aria-label="Show BCulture - Hon Viet"></button></div>
+          </section>
+        </section>
+
         <section class="external-projects" aria-labelledby="external-title">
           <h2 class="art-title external-heading" id="external-title">EXTERNAL PROJECTS</h2>
           <div class="project-grid external-grid">
-            <figure class="project"><img class="project-badge" src="assets/bcareer-badge.png" width="96" height="96" alt="" loading="lazy"><img class="project-photo" src="assets/bcareer.png" width="369" height="270" alt="BCareer 4.0 event participants" loading="lazy"><figcaption>BCAREER 4.0</figcaption></figure>
-            <figure class="project"><img class="project-badge" src="assets/marketing-badge.png" width="96" height="96" alt="" loading="lazy"><img class="project-photo" src="assets/marketing-challengers.png" width="366" height="269" alt="Marketing Challengers event participants" loading="lazy"><figcaption>MARKETING CHALLENGERS</figcaption></figure>
-            <figure class="project"><img class="project-badge" src="assets/logisticom-badge.png" width="96" height="96" alt="" loading="lazy"><img class="project-photo" src="assets/logisticom.png" width="367" height="270" alt="The Logisticom team and participants" loading="lazy"><figcaption>THE LOGISTICOM</figcaption></figure>
+            <figure class="project"><img class="project-badge" src="assets/bcareer-badge.png" width="96" height="96" alt="" loading="lazy"><img class="project-photo" src="assets/projects/external-1.webp" width="369" height="270" alt="BCareer 4.0 event participants" loading="lazy"><figcaption>BCAREER 4.0</figcaption></figure>
+            <figure class="project"><img class="project-badge" src="assets/marketing-badge.png" width="96" height="96" alt="" loading="lazy"><img class="project-photo" src="assets/projects/external-2.webp" width="366" height="269" alt="Marketing Challengers event participants" loading="lazy"><figcaption>MARKETING CHALLENGERS</figcaption></figure>
+            <figure class="project"><img class="project-badge" src="assets/logisticom-badge.png" width="96" height="96" alt="" loading="lazy"><img class="project-photo" src="assets/projects/external-3.webp" width="367" height="270" alt="The Logisticom team and participants" loading="lazy"><figcaption>THE LOGISTICOM</figcaption></figure>
           </div>
         </section>
 
         <section class="partner" aria-labelledby="partner-title">
           <h2 class="art-title partner-heading" id="partner-title">STRATEGIC PARTNER</h2>
-          <img class="partner-lockup" src="assets/strategic-partner.png" width="714" height="144" alt="Business Club × P&amp;G" loading="lazy">
+          <div class="partner-lockup" role="img" aria-label="Business Club × P&amp;G">
+            <img class="partner-bc" src="assets/partner-bc.png?v=transparent" width="3478" height="1018" alt="" loading="lazy" aria-hidden="true">
+            <span class="partner-cross" aria-hidden="true">X</span>
+            <img class="partner-pg" src="assets/partner-pg.png" width="73" height="73" alt="" loading="lazy" aria-hidden="true">
+          </div>
           <p class="partner-description">The only student club currently partnered with P&amp;G in Ho Chi Minh City</p>
         </section>
 
+        <button class="page-turn" type="button" data-page="3"><span>HUMANS OF BUSINESS CLUB</span><span class="turn-line"></span><span>Meet us &amp; join BC &nbsp; ↗</span></button>
+      </div>
+    </article>
+
+    <article class="leaflet-page" id="page-3" aria-label="Page 3: People, recruitment and contact" data-index="3" hidden>
+      <div class="page-frame">
         <section class="humans" aria-labelledby="humans-title">
           <h2 class="art-title humans-heading" id="humans-title">HUMANS OF BC</h2>
           <div class="human-grid">
             <figure class="human"><img class="human-portrait" src="assets/human-minh-phuong.png" width="302" height="313" alt="Minh Anh and Phuong Vy" loading="lazy"><figcaption>National Champion of<br>the L’Oréal Brandstorm 2025</figcaption></figure>
-            <figure class="human"><img class="human-portrait" src="assets/human-kim-sa.png" width="322" height="313" alt="Tran Ngoc Kim Sa" loading="lazy"><figcaption>Best Digital Creative of<br>FFTI Student Audio-Visual 2026</figcaption></figure>
+            <figure class="human"><img class="human-portrait" src="assets/human-kim-sa.png" width="322" height="313" alt="Tran Ngoc Kim Sa" loading="lazy"><figcaption>Best Digital Creative of<br>IFFTI Student Audio-Visual 2026</figcaption></figure>
             <figure class="human"><img class="human-portrait" src="assets/human-minh-han.png" width="298" height="313" alt="Nguyen Minh Han" loading="lazy"><figcaption>World Champion of the HSBC<br>Business Case Competition 2025</figcaption></figure>
           </div>
         </section>
@@ -113,9 +200,9 @@
           <h2 class="art-title contact-heading" id="contact-title">CONTACT INFO</h2>
           <div class="contact-body">
             <p><span>Facebook fanpage:</span> RMIT Vietnam Business Club – SGS</p>
-            <a href="https://www.instagram.com/rmitbusinessclub/" target="_blank" rel="noopener"><span>Instagram:</span> @rmitbusinessclub <b aria-hidden="true">↗</b></a>
             <p><span>LinkedIn:</span> RMIT Vietnam Business Club SGS</p>
-            <a href="https://www.tiktok.com/@rmitvnbusinessclubsgs" target="_blank" rel="noopener"><span>TikTok:</span> @rmitvnbusinessclubsgs <b aria-hidden="true">↗</b></a>
+            <a href="https://www.instagram.com/rmitbusinessclub/" target="_blank" rel="noopener"><span>Instagram:</span> @rmitbusinessclub <b aria-hidden="true">↗</b></a>
+                        <a href="https://www.tiktok.com/@rmitvnbusinessclubsgs" target="_blank" rel="noopener"><span>TikTok:</span> @rmitvnbusinessclubsgs <b aria-hidden="true">↗</b></a>
           </div>
         </section>
         <button class="page-turn back-turn" type="button" data-page="1"><span>↖ &nbsp; Back to Meet BC</span><span class="turn-line"></span><span>RMIT VIETNAM · SGS</span></button>
@@ -125,7 +212,7 @@
 
   <nav class="bottom-nav" aria-label="Page navigation">
     <button type="button" id="previous-page" aria-label="Previous page">←</button>
-    <div class="nav-middle"><span class="nav-caption">MEET BUSINESS CLUB</span><div class="page-indicators"><button data-page="1" type="button" aria-label="Go to page 1" aria-current="page"></button><span id="page-counter">01 / 02</span><button data-page="2" type="button" aria-label="Go to page 2"></button></div></div>
+    <div class="nav-middle"><span class="nav-caption">MEET BUSINESS CLUB</span><div class="page-indicators"><button data-page="1" type="button" aria-label="Go to page 1" aria-current="page"></button><button data-page="2" type="button" aria-label="Go to page 2"></button><button data-page="3" type="button" aria-label="Go to page 3"></button><span id="page-counter">01 / 03</span></div></div>
     <button type="button" id="next-page" aria-label="Next page">→</button>
   </nav>
   <div class="page-announcer sr-only" aria-live="polite" aria-atomic="true"></div>

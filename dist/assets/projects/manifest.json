@@ -1,0 +1,122 @@
+{
+  "company-tour": [
+    {
+      "src": "assets/projects/company-tour-1.webp",
+      "title": "Shopee Company Tour",
+      "width": 1400,
+      "height": 788,
+      "source": "Elements/Comptour/Shopee Company Tour.jpg"
+    },
+    {
+      "src": "assets/projects/company-tour-2.webp",
+      "title": "Suntory Pepsico Company Tour",
+      "width": 1400,
+      "height": 1051,
+      "source": "Elements/Comptour/Suntory Pepsico Company Tour.jpg"
+    },
+    {
+      "src": "assets/projects/company-tour-3.webp",
+      "title": "KPMG Company Tour",
+      "width": 1400,
+      "height": 933,
+      "source": "Elements/Comptour/KPMG Company Tour.jpg"
+    }
+  ],
+  "workshop-training": [
+    {
+      "src": "assets/projects/workshop-training-1.webp",
+      "title": "Business Acumen Internal Training",
+      "width": 1400,
+      "height": 898,
+      "source": "Elements/Workshop and Internal Training/Business Acumen Internal Training.jpg"
+    },
+    {
+      "src": "assets/projects/workshop-training-2.webp",
+      "title": "Marketing Discussion 9.0",
+      "width": 770,
+      "height": 516,
+      "source": "Elements/Workshop and Internal Training/Marketing Discussion 9.0.png"
+    },
+    {
+      "src": "assets/projects/workshop-training-3.webp",
+      "title": "BControl 2.0",
+      "width": 1400,
+      "height": 935,
+      "source": "Elements/Workshop and Internal Training/BControl 2.0.jpg"
+    },
+    {
+      "src": "assets/projects/workshop-training-4.webp",
+      "title": "Crack The Case - From Zero to Hero",
+      "width": 1400,
+      "height": 788,
+      "source": "Elements/Workshop and Internal Training/Crack The Case - From Zero to Hero.jpg"
+    },
+    {
+      "src": "assets/projects/workshop-training-5.webp",
+      "title": "BCase",
+      "width": 1400,
+      "height": 935,
+      "source": "Elements/Workshop and Internal Training/BCase.jpg"
+    },
+    {
+      "src": "assets/projects/workshop-training-6.webp",
+      "title": "P&G x BC_ Career Talk Session",
+      "width": 1400,
+      "height": 933,
+      "source": "Elements/Workshop and Internal Training/P&G x BC_ Career Talk Session.jpg"
+    },
+    {
+      "src": "assets/projects/workshop-training-7.webp",
+      "title": "Guest Speaker Management Training",
+      "width": 1400,
+      "height": 935,
+      "source": "Elements/Workshop and Internal Training/Guest Speaker Management Training .jpg"
+    }
+  ],
+  "bonding-events": [
+    {
+      "src": "assets/projects/bonding-events-1.webp",
+      "title": "BChristmas – Bonding",
+      "width": 1400,
+      "height": 933,
+      "source": "Elements/Bonding Events/BChristmas – Bonding .jpg"
+    },
+    {
+      "src": "assets/projects/bonding-events-2.webp",
+      "title": "BC Trip",
+      "width": 692,
+      "height": 462,
+      "source": "Elements/Bonding Events/BC Trip.png"
+    },
+    {
+      "src": "assets/projects/bonding-events-3.webp",
+      "title": "BCulture - Hon Viet",
+      "width": 1400,
+      "height": 788,
+      "source": "Elements/Bonding Events/BCulture - Hon Viet.jpg"
+    }
+  ],
+  "external": [
+    {
+      "src": "assets/projects/external-1.webp",
+      "title": "BCareer 4.0",
+      "width": 1400,
+      "height": 898,
+      "source": "Elements/External Projects/BCareer 4.0 .jpg"
+    },
+    {
+      "src": "assets/projects/external-2.webp",
+      "title": "Marketing Challengers",
+      "width": 1400,
+      "height": 933,
+      "source": "Elements/External Projects/Marketing Challengers.jpg"
+    },
+    {
+      "src": "assets/projects/external-3.webp",
+      "title": "The Logisticom",
+      "width": 1400,
+      "height": 933,
+      "source": "Elements/External Projects/The Logisticom.jpg"
+    }
+  ]
+}
